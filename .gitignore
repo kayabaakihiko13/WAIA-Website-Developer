@@ -1,0 +1,5 @@
+# virtualenv python
+env/
+venv/
+src/__pycache__/
+src/.env

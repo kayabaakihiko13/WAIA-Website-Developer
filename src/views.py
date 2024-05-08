@@ -28,7 +28,7 @@ def register():
 
     # Create a new user instance
     new_user = Users(firstName=data["firstName"], lastName=data["lastName"],
-                     userName=data["userName"], email=data["email"])
+                     userName=data["userName"], email=data["email"],)
     new_user.set_password(data["password"])
 
     # Add new user to the database
